@@ -1,0 +1,14 @@
+#pragma once
+
+// interval (1min)
+#define INTERVAL (60*1000*1000)
+
+#define RETRY_MAX 3
+#define RETRY_INTERVAL 100
+
+#define WIFI_SSID "YOUR_SSID"
+#define WIFI_PASS "YOUR_PASSWORD"
+
+#define SERVER_HOST "SERVER_ADDRESS"
+#define SERVER_PORT 80
+
