@@ -26,6 +26,7 @@ uint16_t AM2320::crc16(byte* data, unsigned int len) {
 byte AM2320::writeCommand(const byte cmd[]) {
   // Wake up a sensor
   Wire.beginTransmission(ADDRESS);
+  delay(1);
   Wire.endTransmission();
 
   // Send a command
